@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="45237904-4630-4ea3-b620-488639e1fa26" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/aa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mmall-fe.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/common/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.js" />
@@ -13,6 +19,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/layout/html-head.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/login.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -140,7 +147,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="11" />
     <option name="width" value="1382" />
@@ -255,15 +262,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543192085759</updated>
-      <workItem from="1543192087785" duration="31347000" />
+      <workItem from="1543192087785" duration="31410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31347000" />
+    <option name="totallyTimeSpent" value="31410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="11" width="1382" height="744" extended-state="1" />
+    <frame x="-10" y="11" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27380952" sideWeight="0.86904764" order="0" side_tool="false" content_ui="combo" />
