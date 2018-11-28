@@ -5,7 +5,7 @@
   "main": "\"\"\u001b[Dmmall前端代码\u001b[B\u001b[A“\u001b[B\u001b[\"\u001b[B",
   "scripts": {
     "dev": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
-    "dist":"set WEBPACK_ENV=online && webpack -p"
+    "dist": "set WEBPACK_ENV=online && webpack -p"
   },
   "repository": {
     "type": "git",

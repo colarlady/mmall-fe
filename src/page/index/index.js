@@ -6,7 +6,15 @@
  */
 'use strict'
 
-require('../moudule.js');
-require('./index.css');
-console.log("hello index");
+var _mm = require('util/mm.js');
+
+require('../common/nav-simple/index.js');
+require('../common/nav/index.js');
+require('../common/head/index.js');
+var navSide = require('../common/nav-side/index.js');
+
+navSide.init({
+    name:"pass-update"
+});
+
 

@@ -1,0 +1,31 @@
+
+
+/*头部搜索部分*/
+
+.header .logo{
+    position: absolute;
+    top:30px;
+    left:50px;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+}
+.header .search-con {
+    padding: 40px 0 30px 250px;
+}
+
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #c60023;
+    outline: none;
+    padding:0 0 0 10px;
+    font-size:15px;
+}
+
+.header .search-con .search-submit{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+}
