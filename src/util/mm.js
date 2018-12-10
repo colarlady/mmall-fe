@@ -40,7 +40,7 @@ var _mm = {
     },
     //转到登录页
     doLogin: function () {
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //转到首页
     goHome:function () {
@@ -79,7 +79,7 @@ var _mm = {
         }
         //验证手机
         if('phone'===type){
-            return /^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(17[0,3,5-8])|(18[0-9])|166|198|199|(147))\\d{8}$/.test(value);
+            return /^1[34578]\d{9}$/.test(value);
         }
         //验证邮箱
         if('email'==type){

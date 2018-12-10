@@ -29,3 +29,13 @@
     height: 44px;
     width: 80px;
 }
+
+/*面包屑导航*/
+.crumb{
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    font-size:14px;
+    color: #888;
+    margin-bottom:10px;
+}

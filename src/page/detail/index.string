@@ -1,0 +1,53 @@
+    <!--信息介绍-->
+    <div class="intro-wrap">
+        <!--左边img-->
+        <div class="img-con">
+            <div class="main-img-con">
+                <img src="{{imageHost}}{{mainImage}}" alt="{{name}}" class="main-img">
+            </div>
+            <ul class="sub-img-list">
+                {{#subImages}}
+                <li class="sub-img-item">
+                    <img src="{{imageHost}}{{.}}" alt="{{name}}" class="sub-img">
+                </li>
+                {{/subImages}}
+            </ul>
+        </div>
+
+        <!--右边信息-->
+        <div class="info-con">
+            <h1 class="info-title">{{name}}</h1>
+            <p class="sub-title">{{subtitle}}</p>
+            <div class="info-item-con item-price-con">
+                <span class="label">价格</span>
+                <span class="info">￥{{price}}</span>
+            </div>
+            <div class="info-item-con item-store-con">
+                <span class="label">库存</span>
+                <span class="info">{{stock}}</span>
+            </div>
+            <div class="info-item-con item-num-con">
+                <span class="label">数量</span>
+                <input class="item-count" value="1" readonly/>
+                <span class=" count-btn plus">+</span>
+                <span class=" count-btn minus">-</span>
+            </div>
+            <div class="info-item-con">
+                <a href="javascript:;" class="btn addToCart">加入购物车</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--详情-->
+    <div class="detail-wrap">
+        <div class="detail-tab-con">
+            <ul class="tab-list">
+                <li class="tab-item active">详情信息</li>
+                <li class="tab-item ">累计评价</li>
+            </ul>
+        </div>
+        <div class="detail-con">
+            {{{detail}}}
+        </div>
+    </div>

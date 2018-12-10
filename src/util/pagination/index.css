@@ -1,0 +1,35 @@
+.page-con{
+    color: #333;
+    text-align: center;
+}
+
+.page-con .page-item{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.page-con .page-item.disabled{
+    color: #ccc;
+    cursor: auto;
+    background: none;
+}
+.page-con .page-item.active{
+    background: none;
+    cursor:auto;
+    border: 1px solid #f6f6f6;
+}
+
+.page-con .page-total {
+    cursor:auto;
+    background: none;
+    margin-left:10px;
+}

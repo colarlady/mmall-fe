@@ -6,15 +6,31 @@
  */
 'use strict'
 
-var _mm = require('util/mm.js');
-
+require("./index.css");
 require('../common/nav-simple/index.js');
 require('../common/nav/index.js');
 require('../common/head/index.js');
-var navSide = require('../common/nav-side/index.js');
+require('util/slider/index.js');
 
-navSide.init({
-    name:"pass-update"
+
+var _mm = require('util/mm.js');
+var templateBanner = require('./banner.string');
+
+$(function () {
+    //渲染banner
+    var bannerHtml = _mm.renderHtml(templateBanner);
+    $(".baner-con").html(bannerHtml);
+
+    //初始化banner
+    var $unsilder = $('.banner').unslider({
+        dots:true
+    });
+
+    $('.banner-arrow').click(function() {
+        var forward = $(this).hasClass("prev")?"prev":"next";
+
+        $unsilder.data('unslider')[forward]();
+    });
 });
 
 

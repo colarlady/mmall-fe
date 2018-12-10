@@ -17,10 +17,9 @@ var navSide = {
         navList:[
             {name:"user-center",des:"个人中心",href:"./user-center.html"},
             {name:"order-list",des:"我的订单",href:"./order-list.html"},
-            {name:"pass-update",des:"修改密码",href:"./pass-update.html"},
+            {name:"user-pass-update",des:"修改密码",href:"./user-pass-update.html"},
             {name:"about",des:"关于MMALL",href:"./about.html"}
         ]
-
     },
     init:function (options) {
         //合并参数
