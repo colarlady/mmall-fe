@@ -1,0 +1,71 @@
+
+.order-product-table{
+    border-collapse: collapse;
+}
+.order-product-table th.cell{
+    background-color: #aaa;
+}
+.order-product-table .cell{
+    background-color: #fafafa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-product-table  .cell-img {
+    width: 10%;
+    text-align: left;
+}
+.order-product-table  .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    border:1px solid #ccc;
+}
+
+
+.order-product-table  .cell-info{
+    width: 30%;
+    text-align: left;
+}
+
+.torder-product-table  .cell-info a {
+    text-decoration: none;
+}
+
+.order-product-table  .cell-price {
+    width: 20%;
+    text-align: center;
+}
+
+.order-product-table  .cell-count {
+    width: 20%;
+    text-align: center;
+}
+
+.order-product-table  .cell-total {
+    width: 20%;
+    text-align: center;
+}
+
+.price-total{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.price-total .totalPrice{
+    font-size: 16px;
+    color: #c60023;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/*订单信息样式*/
+.order-info {
+    line-height: 30px;
+}
+.order-info .text-btn .btn{
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
