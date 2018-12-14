@@ -18,7 +18,7 @@
              </div>
              <div class="text-btn">
                 {{#goToPay}}
-                 <a href="./payment.html?orderNumber=XXX" class="btn btn-mini">去支付</a>
+                 <a href="./payment.html?orderNumber={{orderNo}}" class="btn btn-mini">去支付</a>
                 {{/goToPay}}
                 {{#cancleOrder}}
                  <a href="javascript:;" class="cancle-order btn btn-mini">取消订单</a>

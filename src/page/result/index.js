@@ -14,6 +14,10 @@
  $(function () {
      var type = _mm.getUrlParam("type")||'default';
      var $element = $("."+type+"-"+"success");
+     if(type==="payment"){
+        var $orderNum =  $element.find(".order-number");
+         $orderNum.attr("href",$orderNum.attr("href")+_mm.request("orderNumber"));
+     }
      //显示对应的操作提示元素
      $element.show();
  });

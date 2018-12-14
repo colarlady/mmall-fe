@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%=require('html-loader!./layout/head-common.html')%>
+    <title><%= htmlWebpackPlugin.options.title %> - happyMMall电商平台</title>
+</head>
+<body>
+<%=require('html-loader!./layout/nav.html')%>
+<%=require('html-loader!./layout/head.html')%>
+<!--面包屑导航开始-->
+<div class="crumb">
+    <div class="w">
+        <div class="crumb-con">
+            <a href="./index.html" class="link">MMALL</a>
+            <span>></span>
+            <span class="link-text"><%= htmlWebpackPlugin.options.title %></span>
+        </div>
+    </div>
+</div>
+<!--面包屑导航结束-->
+
+<div class="page-wrap w">
+
+</div>
+
+<%=require('html-loader!./layout/footer.html')%>
+</body>
+</html>
